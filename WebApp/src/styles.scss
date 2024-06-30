@@ -1,0 +1,26 @@
+.font-16 {
+    font-size: 16px;
+}
+
+fa-icon {
+    cursor: pointer;
+}
+
+.required {
+    &::after {
+        content: "*";
+        color: red;
+    }
+}
+
+.has-error {
+    input,
+    textarea {
+        border-color: darkred;
+    }
+}
+
+.error-message {
+    font-size: 12px;
+    color: darkred;
+}

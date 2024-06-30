@@ -1,0 +1,16 @@
+.main-div {
+    width: 75%;
+    margin: auto;
+    padding: 20px;
+
+    div:has(p-table) {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 5px;
+    }
+}
+
+p-table ::ng-deep .p-dropdown-items-wrapper ul {
+    padding-left: 0 !important;
+    margin-bottom: 0;
+}

@@ -13,7 +13,7 @@ namespace WebApi.BusinessServices
 
         public List<Restaurant> GetAll()
         {
-            return restaurants;
+            return restaurants.OrderBy(x => x.Name).ToList();
         }
 
         public Restaurant Get(Guid id)

@@ -1,0 +1,41 @@
+<div class="card main-div">
+    <h2>Restaurants</h2>
+    <div>
+        <p-table [value]="restaurantsList" styleClass="p-datatable-striped" [paginator]="true" [rows]="5"
+            [rowsPerPageOptions]="[5, 10, 20]">
+            <ng-template pTemplate="header">
+                <tr>
+                    <th>Name</th>
+                    <th>Location</th>
+                    <th>Contact Number</th>
+                    <th>Website URL</th>
+                    <th class="p-1 text-center"><button class="btn btn-sm btn-success"
+                            (click)="editRestaurant('0')"><fa-icon [icon]="icons.faPlus"></fa-icon> Add</button></th>
+                </tr>
+            </ng-template>
+            <ng-template pTemplate="body" let-restaurant>
+                <tr>
+                    <td>{{restaurant.Name}}</td>
+                    <td>{{restaurant.Location}}</td>
+                    <td>{{restaurant.ContactNumber | phoneMaskPipe}}</td>
+                    <td>{{restaurant.WebsiteURL}}</td>
+                    <td class="text-center p-1"><span>
+                            <fa-icon [icon]="icons.faPencil" class="text-primary font-18"
+                                (click)="editRestaurant(restaurant.Id)"></fa-icon>
+                        </span>
+                        <span class="text-danger font-18 ms-3" (click)="showConfirmation(restaurant.Id)">
+                            <fa-icon [icon]="icons.faTrashCan"></fa-icon>
+                        </span>
+                    </td>
+                </tr>
+            </ng-template>
+            <ng-template pTemplate="emptymessage">
+                <tr>
+                    <td colspan="5">
+                        No records found
+                    </td>
+                </tr>
+            </ng-template>
+        </p-table>
+    </div>
+</div>

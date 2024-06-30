@@ -1,0 +1,55 @@
+<div class="edit-form card">
+    <form #restaurantEditForm="ngForm" (ngSubmit)="saveDetails(restaurantEditForm.valid)">
+        <div class="row mb-2">
+            <div class="border-bottom pb-2">
+                <h2>
+                    {{ id ? 'Edit Restaurant' : 'Add Restaurant' }}
+                </h2>
+            </div>
+            <div class="col-lg-6 col-12 pt-2" [ngClass]="{'has-error': name.invalid && restaurantEditForm.submitted}">
+                <label class="required">Name</label>
+                <input class="form-control" type="text" [(ngModel)]="restaurant.Name" #name="ngModel" name="nameInput"
+                    placeholder="Please enter name" required>
+                <span class="error-message" *ngIf="name.invalid && restaurantEditForm.submitted">Name is required</span>
+            </div>
+            <div class="col-lg-6 col-12 pt-2">
+                <label>Contact Number</label>
+                <input class="form-control" type="text" [(ngModel)]="restaurant.ContactNumber" #contact="ngModel"
+                    name="contactInput" [mask]="maskedPhoneNumber" [placeholder]="maskedPhoneNumber">
+            </div>
+
+            <div class="col-lg-6 col-12 pt-2">
+                <label>Cuisine Type</label>
+                <ng-select [items]="cuisineTypes" placeholder="Select cuisine type(s)" name="cuisines"
+                    [(ngModel)]="selectedCuisineTypes" #buttonList="ngModel" [multiple]="true"
+                    [hideSelected]="true"></ng-select>
+            </div>
+
+            <div class="col-lg-6 col-12 pt-2">
+                <label>Website URL</label>
+                <input class="form-control" type="text" [(ngModel)]="restaurant.WebsiteURL" #websiteUrl="ngModel"
+                    name="websiteUrlInput" placeholder="Enter website URL">
+            </div>
+
+            <div class="col-lg-6 col-12 pt-2"
+                [ngClass]="{'has-error': location.invalid && restaurantEditForm.submitted}">
+                <label class="required">Location</label>
+                <input class="form-control" type="text" [(ngModel)]="restaurant.Location" #location="ngModel"
+                    name="locationInput" required placeholder="Please enter location">
+                <span class="error-message" *ngIf="location.invalid && restaurantEditForm.submitted">Location is
+                    required</span>
+            </div>
+            <div class="col-12 pt-2" [ngClass]="{'has-error': desc.invalid && restaurantEditForm.submitted}">
+                <label class="required">Description</label>
+                <textarea class="form-control" type="text" [(ngModel)]="restaurant.Description" #desc="ngModel"
+                    name="description" rows="3" required placeholder="Enter description"></textarea>
+                <span class="error-message" *ngIf="desc.invalid && restaurantEditForm.submitted">Description is
+                    required</span>
+            </div>
+        </div>
+        <div class="footer">
+            <button type="submit" class="btn btn-primary me-2">Submit</button>
+            <button type="reset" class="btn btn-secondary" (click)="cancel()">Cancel</button>
+        </div>
+    </form>
+</div>
