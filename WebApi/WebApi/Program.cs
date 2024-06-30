@@ -1,4 +1,5 @@
 using WebApi.BusinessServices;
+using WebApi.Filters;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +13,7 @@ builder.Services.AddControllers().AddJsonOptions(options =>
 builder.Services.AddSingleton<RestaurantBusinessService>();
 builder.Services.AddCors();
 builder.Services.AddSwaggerGen();
+builder.Services.AddScoped<ExceptionFilter>();
 
 var app = builder.Build();
 

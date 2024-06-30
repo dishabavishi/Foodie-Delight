@@ -19,7 +19,11 @@ namespace WebApi.BusinessServices
         public Restaurant Get(Guid id)
         {
             var restaurant = restaurants.FirstOrDefault(x => x.Id == id);
-            return restaurant ?? new Restaurant();
+            if (restaurant == null)
+            {
+                throw new BadHttpRequestException("Restaurant with given Id not found.");
+            }
+            return restaurant;
         }
 
         public Restaurant Add(Restaurant restaurant)
