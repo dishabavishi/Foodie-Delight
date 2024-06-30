@@ -1,4 +1,9 @@
 <div class="background" [ngStyle]="{'background': 'url(assets/images/background.jpg)', 'background-size': 'cover'}">
-    <router-outlet />
+    <div class="header" (click)="viewRestaurants()">
+        Foodie Delight
+    </div>
+    <div class="content">
+        <router-outlet />
+    </div>
 </div>
 <ngx-spinner type="ball-atom"></ngx-spinner>
