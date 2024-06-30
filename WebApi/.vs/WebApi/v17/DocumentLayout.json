@@ -1,0 +1,123 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Disha VPN\\Restaurant\\WebApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AF337C50-464C-4537-8636-B27D15481DFD}|WebApi\\WebApi.csproj|d:\\disha vpn\\restaurant\\webapi\\webapi\\controllers\\restaurantapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF337C50-464C-4537-8636-B27D15481DFD}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\restaurantapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF337C50-464C-4537-8636-B27D15481DFD}|WebApi\\WebApi.csproj|d:\\disha vpn\\restaurant\\webapi\\webapi\\businessservices\\restaurantbusinessservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF337C50-464C-4537-8636-B27D15481DFD}|WebApi\\WebApi.csproj|solutionrelative:webapi\\businessservices\\restaurantbusinessservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF337C50-464C-4537-8636-B27D15481DFD}|WebApi\\WebApi.csproj|d:\\disha vpn\\restaurant\\webapi\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF337C50-464C-4537-8636-B27D15481DFD}|WebApi\\WebApi.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF337C50-464C-4537-8636-B27D15481DFD}|WebApi\\WebApi.csproj|d:\\disha vpn\\restaurant\\webapi\\webapi\\models\\restaurant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF337C50-464C-4537-8636-B27D15481DFD}|WebApi\\WebApi.csproj|solutionrelative:webapi\\models\\restaurant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF337C50-464C-4537-8636-B27D15481DFD}|WebApi\\WebApi.csproj|d:\\disha vpn\\restaurant\\webapi\\webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AF337C50-464C-4537-8636-B27D15481DFD}|WebApi\\WebApi.csproj|solutionrelative:webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF337C50-464C-4537-8636-B27D15481DFD}|WebApi\\WebApi.csproj|d:\\disha vpn\\restaurant\\webapi\\webapi\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF337C50-464C-4537-8636-B27D15481DFD}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Disha VPN\\Restaurant\\WebApi\\WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "WebApi\\Program.cs",
+              "ToolTip": "D:\\Disha VPN\\Restaurant\\WebApi\\WebApi\\Program.cs",
+              "RelativeToolTip": "WebApi\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T16:49:32.514Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Disha VPN\\Restaurant\\WebApi\\WebApi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "WebApi\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Disha VPN\\Restaurant\\WebApi\\WebApi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "WebApi\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABkAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-29T18:37:12.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "D:\\Disha VPN\\Restaurant\\WebApi\\WebApi\\Controllers\\BaseController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\BaseController.cs",
+              "ToolTip": "D:\\Disha VPN\\Restaurant\\WebApi\\WebApi\\Controllers\\BaseController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\BaseController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAYAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T18:19:18.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RestaurantBusinessService.cs",
+              "DocumentMoniker": "D:\\Disha VPN\\Restaurant\\WebApi\\WebApi\\BusinessServices\\RestaurantBusinessService.cs",
+              "RelativeDocumentMoniker": "WebApi\\BusinessServices\\RestaurantBusinessService.cs",
+              "ToolTip": "D:\\Disha VPN\\Restaurant\\WebApi\\WebApi\\BusinessServices\\RestaurantBusinessService.cs",
+              "RelativeToolTip": "WebApi\\BusinessServices\\RestaurantBusinessService.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAgwBkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T16:51:43.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RestaurantApiController.cs",
+              "DocumentMoniker": "D:\\Disha VPN\\Restaurant\\WebApi\\WebApi\\Controllers\\RestaurantApiController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\RestaurantApiController.cs",
+              "ToolTip": "D:\\Disha VPN\\Restaurant\\WebApi\\WebApi\\Controllers\\RestaurantApiController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\RestaurantApiController.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAmwCYAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T16:50:34.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Restaurant.cs",
+              "DocumentMoniker": "D:\\Disha VPN\\Restaurant\\WebApi\\WebApi\\Models\\Restaurant.cs",
+              "RelativeDocumentMoniker": "WebApi\\Models\\Restaurant.cs",
+              "ToolTip": "D:\\Disha VPN\\Restaurant\\WebApi\\WebApi\\Models\\Restaurant.cs",
+              "RelativeToolTip": "WebApi\\Models\\Restaurant.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T16:50:04.164Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
